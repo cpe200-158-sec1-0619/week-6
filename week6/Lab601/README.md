@@ -7,7 +7,15 @@ from the provided C# source code.
 
 1. A class diagram of the original source code
 ![570610619](http://www.mx7.com/i/7b0/AzWaPp.jpg)
+
 2. Detail explaination about the identified pattern and all the parcipants
+	Ans : Anewer = Abstract  Factory Method 
+			AbstractFactory = ContinentFactory
+			ConcreteFactory = AmericaFactory , AfricaFactory
+			Client = AnimalWorld
+			AbstractProduct = Herbivore , Carnivore
+			Product = Wildebeast , Lion , Bison , Woft
+
 3. Explain how to include "an asian herbivore and an asian carnivore" to the program: 
   - Show the class diagram of the program after including the new requirment.
   - Test the new requirment by modifying the main function and show the result.
