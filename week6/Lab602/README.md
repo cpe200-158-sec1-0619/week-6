@@ -6,4 +6,10 @@ from the provided C# program.
 ## Submission: a written report which contains
 
 1. A class diagram of the original source code
+![570610619](http://www.mx7.com/i/bf4/bmOgEE.jpg)
 2. Detail explaination about the identified pattern and all the parcipants
+Answer = Abstract  Factory Method 
+				AbstractFactory = Document
+				ConcreteFactory = Resume & Report
+				AbstractProduct = Page
+				Product = SkillPage,EducationPage,ExperiencePage,IntroductionPage,ResultsPage,ConclusionPage,SummaryPage,BibliographyPage
